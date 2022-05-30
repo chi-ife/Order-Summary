@@ -139,7 +139,7 @@ button~a:hover{
     margin-bottom: 35px;
 }
 
-@media (min-width: 300px) and (max-width: 1000px) {
+@media (min-width: 300px) and (max-width: 800px) {
     body{
         background-color: hsl(225, 100%, 94%);
         background-image: url(./images/pattern-background-mobile.svg);
@@ -147,15 +147,13 @@ button~a:hover{
         background-size: contain;
         
     }
+    
     main{
         height: 800px;
     }
     .card{
         height: 90%;
-        width: 90%;
         background-color: #fff;
-        border-radius: 18px;
-
     }
 
 

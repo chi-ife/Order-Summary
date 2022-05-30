@@ -139,6 +139,27 @@ button~a:hover{
     margin-bottom: 35px;
 }
 
+@media (min-width: 300px) and (max-width: 700px) {
+    body{
+        background-image: url(./images/pattern-background-mobile.svg);
+        background-color: hsl(225, 100%, 94%);
+        background-repeat: no-repeat;
+    }
+
+    .card{
+        height: 600px;
+        width: 90%;
+        background-color: #fff;
+        border-radius: 18px;
+        margin: 0 40px;
+
+    }
+
+    .plan div>h4{
+        width: fit-content;
+    }
+}
+
 
 
 
